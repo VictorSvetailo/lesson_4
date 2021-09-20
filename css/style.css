@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:regular,700c&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Italic.woff2") format("woff2"), url("../fonts/SFUIText-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-BoldItalic.woff2") format("woff2"),
+		url("../fonts/SFUIText-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Heavy.woff2") format("woff2"), url("../fonts/SFUIText-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Bold.woff2") format("woff2"), url("../fonts/SFUIText-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Regular.woff2") format("woff2"), url("../fonts/SFUIText-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Medium.woff2") format("woff2"), url("../fonts/SFUIText-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Light.woff2") format("woff2"), url("../fonts/SFUIText-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF UI Text";
+	src: url("../fonts/SFUIText-Semibold.woff2") format("woff2"), url("../fonts/SFUIText-Semibold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; 
+}
+body {
+	font-family: "SF UI Text", sans-serif;
+	line-height: 1;
+}
+
+p{
+	color: #333;
+}
+/* ------------------------------ */
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 400;
+}
+
+h1 span {
+	font-family: "SF UI Text", sans-serif;
+	font-size: 70px;
+}
+
+.yellow {
+	color: #ffff00;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 80px;
+}
+.green {
+	color: #008000;
+	font-weight: 800;
+	font-size: 40px;
+}
+.blue {
+	color: #0000ff;
+	font-weight: 700;
+	font-style: italic;
+}
+.brown {
+	color: #a52a2a;
+	font-size: 90px;
+	font-weight: 600;
+}
+.white {
+	color: #fff;
+	font-size: 130px;
+	text-shadow: 1px 1px 10px #000;
+	text-decoration: underline;
+	font-weight: 500;
+}
+.red {
+	color: #ff0000;
+	font-size: 30px;
+	font-weight: 400;
+}
+.orange {
+	color: #ffa500;
+	font-size: 60px;
+	
+}
+.pink {
+	color: #ffc0cb;
+	font-size: 150px;
+	font-weight: 300;
+	text-decoration: line-through;
+}
+.gray {
+	color: #808080;
+	font-size: 80px;
+	font-weight: 900;
+	font-style: italic;
+}
+.black {
+	color: #000;
+	font-size: 50px;
+	font-weight: 700;
+	text-decoration: overline;
+	text-transform: uppercase;
+	font-style: oblique;
+	text-shadow: -4px 4px 1px #ff0000;
+}
+
+
+.begin {
+	text-align: right;
+	font-size: 20px;
+	text-decoration: underline;
+	color: #000;
+	text-shadow: 1px 1px 10px #000;
+}
+
+.intro{
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	color: #666;
+}
+
+.skill span{
+	font-weight: 900;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.skill{
+font-style: italic;
+font-weight: 700;
+}
+
+h2{
+	font-size: 50px;
+	font-style: oblique;
+	font-weight: 900;
+	text-shadow: 1px 1px 5px #000;
+	color: #fff;
+	text-align: center;
+	letter-spacing: -10px;
+}
+
+.text{
+	font-style: 20px;
+	font-weight: 700;
+	line-height: 200%;
+}
+
+.text a{
+	color: #ff0000;	
+	font-weight: 900;
+
+}
+
+.image {
+	text-align: center;
+}
+
+ul .point__line span{
+	text-decoration: overline;
+	font-weight: 900;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	text-shadow: none;
+	letter-spacing: 40px;
+}
+
+.point__line{
+	white-space: nowrap;
+}
+
+.point{
+	font-weight: 400;
+	text-shadow: -3px -3px 7px #025aff;
+	word-spacing: 20px;
+}
+
+li a{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.list{
+	text-align: justify;
+}
+
+.browser{
+	text-align: right;
+}
+
+.header__text{
+	font-weight: 900;
+	font-size: 20px;
+	color: salmon;
+	text-align: right;
+	text-decoration: line-through;
+}
+
+.header__text a{
+	font-weight: 900;
+	font-size: 30px;
+	color: #333;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
